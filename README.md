@@ -111,4 +111,4 @@ Producto Laptop Precio 10.5 Cantidad 2 Total 21.0
 
 * El programa utiliza bucles `while` para asegurar que los datos introducidos sean válidos.
 * Se emplea `try/except` para evitar errores cuando el usuario introduce valores incorrectos.
-* ![Diagrama de flujo](/home/cohorte5/Descargas/HU/diagrama.png)
+* ![Diagrama de flujo](/diagrama.png)
