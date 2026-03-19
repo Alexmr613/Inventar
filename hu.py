@@ -9,9 +9,16 @@ def agregar_producto():
 
         
         nombre =input("digite el nombre del producto")
-        precio = int(input("digite el precio del producto"))
-        cantidad = int(input("digite la cantidad a registrar ")) #Creacion del producto
-       
+        if isinstance(nombre, int)== True: # Validacion de datos
+            print("Digite un nombre valido ")
+        
+            
+        precio = input("digite el precio del producto")
+        if isinstance(precio, str)== True : 
+            print("Digite un precio validos ")
+        cantidad = input("digite la cantidad a registrar ") #Creacion del producto
+        if isinstance(cantidad, str) == True : 
+            print("Digite una cantidad valida ")
 
         dicc["nombre"] = nombre #Integrar el producto al diccionario
         dicc["precio"] = precio
